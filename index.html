@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet" media="all">
     <meta charset="UTF-8">
     <title>Portfólio</title>
+
 </head>
 <body>
-    <h2>Caroline Borges Boaventura Ferreira de Sousa</h2>
+    
+    <!--Cabeçalho com e-mail, linkedin e github | e índice-->
+    <div class = "background-color-infos">
+        <span class="head_left">
+            <a class = "head">caroline.boaventura08@gmail.com</a>
+            <span> | </span>
+            <a class = "head" href="https://www.linkedin.com/in/caroline-boaventura-79544b53/" target="_blank">LinkedIn</a>
+            <span> | </span>
+            <a class = "head" href="https://github.com/caroline-boaventura" target="_blank">GitHub</a>
+        </span>
+        
+        <span class="head_right">
+            <a class = "head" href="#I">Quem Sou Eu</a>
+            <span> | </span>
+            <a class = "head" href="#skills">Habilidades</a>
+            <span> | </span>
+            <a class = "head" href="#links">Canais Que Eu Curto</a>
+        </span>
+    </div>
+   
+    <!-- Parte com nome e foto -->
+    <div class = "background-color-picture">
+        <h2 class="name">Caroline Borges Boaventura Ferreira de Sousa</h2>
+        <img id="foto" src="minha_foto.jpeg" alt="Uma foto minha, sorrindo, com o Castelo da Cinderela, símbolo do Magic Kingdom Park, ao fundo." width="200 px">
+    </div>
 
-    <a href="#quem_sou">QUEM SOU EU</a>
-    <a href="#habilidades">HABILIDADES</a>
-    <a href="#dicas">DICAS</a>
-    <br/>
-    <br/>
-    <img id="foto" src="minha_foto.jpeg" alt="Uma foto minha, sorrindo, com o Castelo da Cinderela, símbolo do Magic Kingdom Park, ao fundo." width="300 px">
-    <p id="quem_sou">Sou mineira, do interior de Minas Gerais, mas moro em BH há muito tempo, então me considero uma belorizontina de coração!<br>
-    Sou formada em Engenharia Ambiental, mas sempre fui apaixonada por tecnologia, por isso me inscrevi no curso da Trybe!</p>
-    <a href="https://www.linkedin.com/in/caroline-boaventura-79544b53/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/caroline-boaventura" target="_blank">GitHub</a>
-    <br>
-    <h4 id="habilidades"><em>Habilidades:</em></h4>
-    <ul>
-        <li><strong>Focada</strong></li>
-        <li>Organizada</li>
-        <li>Escrita</li>
-        <li>Capacidade lógica</li>
-    </ul>
-    <a href="#foto">Minha Foto</a>
-
-    <h4 id="dicas"><em>Dica:</em></h4>
-    <a href="https://open.spotify.com/show/0LvIvCZfntBuZOpOEhTU0K" target="_blank">Podcast B9</a>
+    <!-- Parte quem sou eu -->
+    <div class = "background-color-infos div_border">
+        <h4 id="I" class="title">Quem Sou Eu?</h4>
+        <p class="paragraph">Sou mineira, do interior de Minas Gerais, mas moro em BH há muito tempo, então me considero uma belorizontina de coração!<br>
+        Sou formada em Engenharia Ambiental, mas sempre fui apaixonada por tecnologia, por isso me inscrevi no curso da <strong>Trybe</strong>!</p>
+    </div>
+    
+    <!-- Parte de Habilidades-->
+    <div class = "background-color-infos div_border">
+        <h4 id="skills" class="title">Habilidades:</h4>
+        <p class="paragraph">Focada</p>
+        <p class="paragraph"><strong>Organizada</strong></p>
+        <p class="paragraph">Escrita</p>
+        <p class="paragraph">Capacidade lógica</p>
+    </div>
+    
+    <!-- Parte de Links Externos -->
+    <div class = "background-color-infos div_border">
+        <h4 id="links" class="title">Canais Que Eu Curto</h4>
+            <a class="paragraph" href="https://open.spotify.com/show/0LvIvCZfntBuZOpOEhTU0K" target="_blank">Podcast - B9</a><br>
+            <a class="paragraph" href="https://open.spotify.com/show/39IqvZCSC52QAehb4b4aaR" target="_blank">Podcast - Mamilos</a><br>
+            <a class="paragraph" href="https://www.youtube.com/user/maddumagalhaes" target="_blank">Youtube - Maddu Magalhães</a><br>
+            <a class="paragraph" href="https://www.youtube.com/user/einerdtv" target="_blank">Youtube - Ei Nerd</a><br>
+            <a class="paragraph" href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
+    </div>
     
 </body>
 </html>
